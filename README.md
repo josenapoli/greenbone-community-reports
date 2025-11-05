@@ -140,6 +140,6 @@ Autor
 José Andrés Napoli
 Analista de Seguridad Informática
 
-📧 Contacto: jose.andres.napoli
+📧 Contacto: josenapoli
 
 💼 Proyecto: General | Seguridad Informática
