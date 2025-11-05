@@ -102,6 +102,7 @@ Ejemplo de estructura de archivos
 
 Dentro de la carpeta del formato (0bf5fd0f-c98b-4aa2-847c-228be530556b/) se deben incluir:
 
+```bash
 generate
 
 latex.xsl
@@ -109,11 +110,12 @@ latex.xsl
 report.xsl
 
 report_format.xml
-
+```
 
 
 Archivos principales
 
+```bash
 generate → Script que ejecuta xsltproc y pdflatex
 
 latex.xsl → Plantilla principal en LaTeX
@@ -121,7 +123,7 @@ latex.xsl → Plantilla principal en LaTeX
 report_format.xml → Descriptor XML del formato para gvmd
 
 report.xsl → Transformación auxiliar (opcional)
-
+```
 
 
 EXTRA:
@@ -129,11 +131,19 @@ EXTRA:
 Migración a otro servidor:
 
 Para reutilizar el formato en otra instalación:
+
 Comprimir la carpeta:
+
+```bash
 tar czf ExecutiveSummary.tar.gz /var/lib/gvm/gvmd/report_formats/<UUID_base>/0bf5fd0f-c98b-4aa2-847c-228be530556b
+```
 Copiarla al nuevo servidor y extraerla en la misma ruta.
+
 Ejecutar:
+
+```bash
 sudo -u gvm gvmd --create-report-format /var/lib/gvm/gvmd/report_formats/<UUID_base>/0bf5fd0f-c98b-4aa2-847c-228be530556b/report_format.xml
+```
 
 Autor
 
