@@ -1,0 +1,12 @@
+<!-- Copyright (C) 2020-2025 Greenbone AG -->
+<report_format id="c402cc3e-b531-11e1-9163-406186ea4fc5">
+  <name>PDF</name>
+  <summary>Portable Document Format report. Version 20250211.</summary>
+  <description>Scan results in Portable Document Format (PDF). Version 20250211.</description>
+  <extension>pdf</extension>
+  <content_type>application/pdf</content_type>
+  <report_type>all</report_type>
+  <file name="generate"/>
+  <file name="latex.xsl"/>
+  <file name="report_format.xml"/>
+</report_format>
