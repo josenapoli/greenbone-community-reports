@@ -95,6 +95,7 @@ sudo -u gvm psql gvmd -c "SELECT id, name, extension, content_type FROM report_f
 Debería devolver algo como:
 
 id                                    | name                         | extension | content_type
+
 0bf5fd0f-c98b-4aa2-847c-228be530556b  | Executive Summary PDF (ES)   | pdf       | application/pdf
 
 Ejemplo de estructura de archivos
