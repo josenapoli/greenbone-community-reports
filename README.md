@@ -1,4 +1,4 @@
-# 📘 Greenbone Community Reports (Español)
+# 📘 Greenbone Community Reports 22.4 (Español)
 Formato de informe **Ejecutivo en PDF** personalizado para *Greenbone Community Edition (OpenVAS)*.
 
 ## 📄 Descripción
