@@ -103,8 +103,11 @@ Ejemplo de estructura de archivos
 Dentro de la carpeta del formato (0bf5fd0f-c98b-4aa2-847c-228be530556b/) se deben incluir:
 
 generate
+
 latex.xsl
+
 report.xsl
+
 report_format.xml
 
 Archivos principales
