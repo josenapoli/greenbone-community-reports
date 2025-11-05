@@ -110,12 +110,18 @@ report.xsl
 
 report_format.xml
 
+
+
 Archivos principales
 
 generate → Script que ejecuta xsltproc y pdflatex
+
 latex.xsl → Plantilla principal en LaTeX
+
 report_format.xml → Descriptor XML del formato para gvmd
+
 report.xsl → Transformación auxiliar (opcional)
+
 
 
 EXTRA:
